@@ -21,14 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import inotebook from "./inotebook.png";
+import expencetracker from "./expencetracker.png";
+import chatbot from "./chatbot.png";
+import profile from "./profile.png";
+import mukul  from "./mukul.png";
+import yogesh from "./yogesh.png";
+import tushar from "./tushar.png";
+
+
 
 export {
   logo,
@@ -52,11 +56,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
+  mukul,
+  tushar,
+  yogesh,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  chatbot,
+  expencetracker,
+  inotebook,
+  profile,
+
 };

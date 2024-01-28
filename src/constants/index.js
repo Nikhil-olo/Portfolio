@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  inotebook,
+  expencetracker,
+  chatbot,
   threejs,
+  yogesh,
+  tushar,
+  mukul,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +116,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mern Stack Developer",
+    company_name: "Teachook",
+    icon: tesla,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2023 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development and maintenance of REST API endpoints, proactively addressed frontend integration challenges, and played a pivotal role in testing and optimizing system performance, resulting in a commendable 20% enhancement in overall functionality",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Full Stack Developer",
+    company_name: "Metabrix Lab",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the development of a streamlined data upload process, leveraging various methods for enhanced versatility. Implemented innovative features, such as seamless file uploads from devices and QR code scanning for image uploads. Achieved a 30% improvement in user experience, reducing the time users spent on data uploads and gathering positive feedback.",
+      "Utilized the MERN stack and Three.js to process uploaded data, creating user-friendly responses. Engineered a download feature enabling users to store processed information. This initiative led to notable enhancements in user experience, streamlined data processing, and a marked boost in overall productivity",
+      
     ],
   },
 ];
@@ -172,35 +144,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    "I had the pleasure of working closely with Nikhil as our Software Development Engineer, and I can confidently attest to his exceptional technical skills and problem-solving abilities. He consistently demonstrated a deep understanding of complex coding challenges and produced efficient and elegant solutions. His commitment to delivering high-quality code and his collaborative approach make him an invaluable asset to any development team.",
+    name: "Tushar",
+    designation: "SDE",
+    company: "Amazon",
+    image: tushar,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    "Working alongside Nikhil was an enlightening experience. He possesses a keen eye for detail and an unwavering dedication to producing robust and scalable software solutions. His proficiency in various programming languages and frameworks is truly commendable. What sets him apart is not just technical prowess but also the ability to communicate complex concepts effectively, fostering a collaborative and productive work environment.",
+    name: "Yogesh",
+    designation: "SDE",
+    company: "EXL",
+    image: yogesh,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    "I had the privilege of managing Nikhil during his tenure as a Software Development Engineer. He consistently delivered outstanding results, showing an innate ability to grasp new technologies swiftly and apply them effectively to our projects. His commitment to meeting deadlines without compromising code quality is truly impressive. I have no hesitation in recommending Nikhil for any challenging software development role.",
+    name: "Mukul",
+    designation: "SDE",
+    company: "Infosys",
+    image: mukul,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ChatBot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It comprehends natural language, delivering relevant responses. It learns from interactions, adapting for personalized, engaging conversations. Users experience seamless, human-like exchanges with instant responses",
     tags: [
       {
         name: "react",
@@ -214,17 +186,21 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "express.js",
+        color: "white-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatbot,
+    source_code_link: "https://github.com/Nikhil-olo/app/ChatBot-",
   },
   {
-    name: "Job IT",
+    name: "Expence Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Implemented user authentication for enhanced security using Redux store, fortifying user data protection. Engineered intuitive screens for adding, editing, and deleting expenses, providing a comprehensive expense management experience",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +208,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "node.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "white-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: expencetracker,
+    source_code_link: "https://github.com/Nikhil-olo/app",
   },
   {
-    name: "Trip Guide",
+    name: "i-NoteBook",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Spearheaded the development of a comprehensive cloud-based Notebook application. Integrated essential features: Note management (addition, updates, deletions), Login, and Sign up capabilities",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "restApi",
+        color: "white-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: inotebook,
+    source_code_link: "https://github.com/Nikhil-olo/app",
   },
 ];
 
